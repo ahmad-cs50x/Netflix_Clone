@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 export default function NetflixClone() {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
     {
